@@ -1,6 +1,7 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class Main {
@@ -15,15 +16,20 @@ public class Main {
     for (int i = 0; i < n; i++) {
       a[i] = Integer.parseInt(st.nextToken());
     }
-    int lt = 0;
-    int rt = 0;
     int cnt = 0;
-
-    for (int i = 0; i < n - 1; i++) {
-      for (int j = i+1; j < n; j++) {
-        if (a[i] + a[j] == m) {
-          cnt++;
-        }
+    Arrays.sort(a);
+    int i = 0;
+    int j = n-1;
+    while (i < j) {
+      int sum = a[i] + a[j];
+      if (sum < m) {
+        i++;
+      } else if (sum > m) {
+        j--;
+      } else {
+        i++;
+        j--;
+        cnt++;
       }
     }
     System.out.println(cnt);
