@@ -1,23 +1,22 @@
 class Solution {
     public String solution(String s) {
-        StringBuilder answer = new StringBuilder();
-        boolean isOdd = true;
+        String answer = "";
+        //"try out " 처럼 공백이 있으면 무시하는게 아니라 단어로 취급해야됨
+        String[] list = s.split(" ", -1);
+        String[] words = new String[list.length];
 
-        for (char c : s.toCharArray()) {
-            if (c == ' ') { // 공백을 만나면 단어가 바뀜
-                isOdd = true; // 단어가 바뀌면 인덱스 초기화
-                answer.append(c); // 공백은 그대로 추가
-                continue;
+        for (int i = 0; i < list.length; i++) {
+            words[i] = "";
+            for (int j = 0; j < list[i].length(); j++) {
+                if (j % 2 == 0) {
+                    words[i] += Character.toUpperCase(list[i].charAt(j));
+                } else {
+                    words[i] += Character.toLowerCase(list[i].charAt(j));
+                }
             }
-
-            if (isOdd) { 
-                answer.append(Character.toUpperCase(c));
-            } else { 
-                answer.append(Character.toLowerCase(c));
-            }
-            isOdd = !isOdd; // 인덱스 전환
         }
 
-        return answer.toString();
+        answer = String.join(" ", words);
+        return answer;
     }
 }
