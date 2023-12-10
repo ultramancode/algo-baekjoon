@@ -18,14 +18,14 @@ class Solution {
 
     public int divisorNumber(int num) {
         int count = 0;
-        for (int i = 1; i <= Math.sqrt(num); i++) {
-            if (num % i == 0) {
-                count++;
-                if (i != num / i) {
-                    count++;
-                }
+        for (int i = 1; i <=Math.sqrt(num); i++) {
+            if(num%i==0){
+                if(i*i==num){
+                    count+=1;
+                } else count+=2;   
             }
         }
-        return count;
+                 return count;
     }
+
 }
