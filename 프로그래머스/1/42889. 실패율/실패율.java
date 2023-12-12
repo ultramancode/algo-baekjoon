@@ -22,13 +22,14 @@ class Solution {
         for(int i=0; i<N; i++){
             double rate = 
                 Double.isNaN ((double)fails[i]/users[i]) ? 0 : (double)fails[i]/users[i];
+
             failRate.add(new Double[]{
                 (double)i+1,rate
             });
         }
-                
-            failRate.sort((o1,o2) -> Double.compare(o2[1],o1[1]));
-                          return failRate.stream().mapToInt(value -> value[0].intValue()).toArray();
+
+        Collections.sort(failRate, (o1, o2) -> Double.compare(o2[1], o1[1]));
+      return failRate.stream().mapToInt(value -> value[0].intValue()).toArray();
             
 }
 }
