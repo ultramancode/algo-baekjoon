@@ -12,7 +12,7 @@ class Solution {
                 continue;
             }else if(arr[i] >= '0' && arr[i] <= '9'){
                 scoreIdx ++;
-                score[scoreIdx] = Integer.parseInt(String.valueOf(arr[i]));     
+                score[scoreIdx] = arr[i]-'0';
                 continue;
             }
             // 컨티뉴로 문자열 이어서 파싱
