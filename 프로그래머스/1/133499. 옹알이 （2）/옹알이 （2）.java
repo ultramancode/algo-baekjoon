@@ -7,7 +7,7 @@ class Solution {
             {
                 continue;
             }
-
+            //yayae같은 경우 방지 위해서, 바로 ""로 안하고 " "로 만들고 없애는 것
             babbling[i] = babbling[i].replace("aya"," ");
             babbling[i] = babbling[i].replace("ye", " ");
             babbling[i] = babbling[i].replace("woo", " ");
