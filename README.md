@@ -1,5 +1,4 @@
-# algo-baekjoon
-This is a auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
+# 알고리즘 문제
 
 
 <br>
@@ -24,4 +23,8 @@ LEVEL 2 : 진행 중<br><br>
 프로그래머스 : 총 328문제 풀이 완료<br>
 백준 : 총 31문제 풀이 완료<br>
 인프런 알고리즘 강의 문제 : 총 56문제 풀이 완료
+
+
+<br>
+This is a auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
 
