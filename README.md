@@ -20,9 +20,12 @@ LEVEL 2 : 진행 중<br><br>
 
 풀이 내역(24.02.21) :
 
+인프런 알고리즘 강의 문제 : 총 56문제 풀이 완료<br>
 프로그래머스 : 총 328문제 풀이 완료<br>
 백준 : 총 31문제 풀이 완료<br>
-인프런 알고리즘 강의 문제 : 총 56문제 풀이 완료
+
+![image](https://github.com/ultramancode/algo-baekjoon/assets/116135174/cb0658b1-8a87-4f8a-9a04-48dab7092ba5)
+
 
 
 <br>
