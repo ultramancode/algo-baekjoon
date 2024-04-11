@@ -10,8 +10,9 @@ class Solution {
         arr[1] = 2;
         
         for(int i = 2; i<n; i++){
+            //오버플로 방지용
             arr[i] = (arr[i-1] + arr[i-2]) % 1234567; 
         }
-        return arr[n-1]%1234567;
+        return arr[n-1];
     }
 }
