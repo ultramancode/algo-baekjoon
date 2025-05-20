@@ -24,7 +24,7 @@
 프로그래머스<br>
 <img width="320" alt="image" src="https://github.com/ultramancode/algo-baekjoon/assets/116135174/54a26a51-7037-435a-a127-9c59765ae363">
 <br>백준<br>
-![BaekjoonHub Stats](https://bojstat.vulcan.site/v2/en/ktw2172)
+[![BOJ](https://bojstat.vulcan.site/v2/en/ktw2172)](https://www.acmicpc.net/user/ktw2172)
 
 
 ---
