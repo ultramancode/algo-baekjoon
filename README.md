@@ -1,33 +1,35 @@
-# 알고리즘 문제
 
+# 알고리즘 문제 풀이 저장소
 
-<br>
-2024년 목표 : 프로그래머스 LV3까지 모든 문제 풀기
-<br>
-<br>
+## 🚀 문제 풀이 환경
 
+- **언어:** Java
+- **문제 풀이 사이트:** 프로그래머스, 백준
+  
+## 📝 진행 상황 (2025.05.20 기준)
 
+- **프로그래머스:** 300+ 문제 풀이 완료
+- **백준:** 77문제 풀이 완료 (현재 백준 문제 풀이 진행 중)
+- **인프런 알고리즘 강의:** 56문제 풀이 완료
+
+---
+
+## 💡 문제 풀이 방향
+
+- 알고리즘 학습을 통해 **코드 최적화와 성능 개선**에 대한 직관력 향상
+- 다양한 알고리즘 문제 유형을 통해 **문제 해결 능력**을 체계적으로 향상
+
+---
+
+프로그래머스<br>
 <img width="320" alt="image" src="https://github.com/ultramancode/algo-baekjoon/assets/116135174/54a26a51-7037-435a-a127-9c59765ae363">
-<br>
-<br>
-
-진행 상황(24.02.21) :
-
-LEVEL 0 : 모든 문제 풀이 완료<br>
-LEVEL 1 : 모든 문제 풀이 완료<br>
-LEVEL 2 : 진행 중<br><br>
+<br>백준<br>
+![BaekjoonHub Stats](https://bojstat.vulcan.site/v2/en/ktw2172)
 
 
-풀이 내역(24.02.21) :
-
-인프런 알고리즘 강의 문제 : 총 56문제 풀이 완료<br>
-프로그래머스 : 총 328문제 풀이 완료<br>
-백준 : 총 31문제 풀이 완료<br>
-
-![image](https://github.com/ultramancode/algo-baekjoon/assets/116135174/cb0658b1-8a87-4f8a-9a04-48dab7092ba5)
+---
 
 
 
 <br>
 This is a auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
-
